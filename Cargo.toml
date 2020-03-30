@@ -7,7 +7,7 @@ edition = "2018"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-yew = {version = "0.13.0", features = ["web-sys"] }
+yew = {version = "0.14.2", feature = ["std_web"] }
 strum = "0.13"
 strum_macros = "0.13"
 serde = "1"
